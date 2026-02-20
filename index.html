@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Victoria Coyotl - Sonríe Consultorio Dental</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        .bg-dental-blue { background-color: #004AAD; }
+        .text-dental-blue { color: #004AAD; }
+        .border-dental-blue { border-color: #004AAD; }
+        .hover-lift { transition: all 0.3s ease; }
+        .hover-lift:hover { transform: translateY(-10px); }
+        .swiper { width: 100%; padding-top: 50px; padding-bottom: 50px; }
+        .swiper-slide { background-position: center; background-size: cover; width: 300px; height: 400px; border-radius: 20px; overflow: hidden; }
+    </style>
+</head>
+<body class="bg-slate-50 font-sans">
+
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="logo.png" alt="Logo SONRIE" class="h-14 md:h-16 w-auto">
+            </div>
+            <div class="space-x-8 hidden md:flex font-medium">
+                <a href="#inicio" class="text-gray-600 hover:text-dental-blue transition">Inicio</a>
+                <a href="#doctora" class="text-gray-600 hover:text-dental-blue transition">Sobre mi</a>
+                <a href="#servicios" class="text-gray-600 hover:text-dental-blue transition">Servicios</a>
+                <a href="#galeria" class="text-gray-600 hover:text-dental-blue transition">Casos de Éxito</a>
+                <a href="https://wa.me/522223287652" class="bg-dental-blue text-white px-6 py-2 rounded-full hover:bg-blue-800 transition shadow-md">Agendar Cita</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="relative bg-dental-blue text-white py-20 px-6 overflow-hidden">
+        <div class="absolute top-0 right-0 opacity-10">
+             <img src="logo.png" alt="" class="w-96 transform translate-x-20 -translate-y-10">
+        </div>
+        <div class="container mx-auto text-center relative z-10">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight">Dra. Victoria Coyotl Tecuanhuey</h1>
+            <p class="text-xl md:text-3xl mb-10 font-light text-blue-100 italic"></p>
+            <a href="https://wa.me/522223287652" class="inline-block bg-white text-dental-blue font-bold py-4 px-10 rounded-full text-lg hover:shadow-2xl transition-all transform hover:scale-105">
+                <i class="fab fa-whatsapp mr-2 text-green-500"></i>Contactar por WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <section id="doctora" class="container mx-auto py-24 px-6">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="w-full md:w-1/2 flex justify-center">
+                <div class="relative">
+                    <div class="w-64 h-64 md:w-80 md:h-80 rounded-full border-8 border-white shadow-2xl overflow-hidden bg-gray-200">
+                        <img src="doctora.jpg" alt="Dra. Victoria Coyotl" class="w-full h-full object-cover">
+                    </div>
+                    <div class="absolute bottom-4 right-4 bg-dental-blue text-white p-4 rounded-xl shadow-lg">
+                        <p class="text-xs font-bold uppercase tracking-widest">Certificada</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 italic">Compromiso con tu Salud Dental</h2>
+                <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+                    Experiencia respaldada por años de práctica y pacientes satisfechos. Mi objetivo es brindarte una atención integral donde la estética y la salud funcionen en armonía.
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4 italic text-dental-blue font-semibold">
+                    <span>#Ética</span> <span>•</span> <span>#Profesionalismo</span> <span>•</span> <span>#Vanguardia</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="bg-slate-100 py-24 px-6">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4 italic">Especialidades Dentales</h2>
+                <div class="w-24 h-1 bg-dental-blue mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover-lift group">
+                    <div class="text-dental-blue text-5xl mb-6"><i class="fas fa-teeth"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Ortodoncia</h3>
+                    <p class="text-gray-500 mb-6 leading-relaxed">Alineación perfecta para niños y adultos.</p>
+                    <a href="https://wa.me/522223287652?text=Deseo%20info%20Ortodoncia" class="block text-center border-2 border-dental-blue text-dental-blue font-bold py-2 px-4 rounded-lg hover:bg-dental-blue hover:text-white transition">Ver detalles</a>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover-lift group">
+                    <div class="text-dental-blue text-5xl mb-6"><i class="fas fa-tooth"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Implantes</h3>
+                    <p class="text-gray-500 mb-6 leading-relaxed">Soluciones fijas de alta calidad.</p>
+                    <a href="https://wa.me/522223287652?text=Deseo%20info%20Implantes" class="block text-center border-2 border-dental-blue text-dental-blue font-bold py-2 px-4 rounded-lg hover:bg-dental-blue hover:text-white transition">Ver detalles</a>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover-lift group">
+                    <div class="text-dental-blue text-5xl mb-6"><i class="fas fa-notes-medical"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Endodoncia</h3>
+                    <p class="text-gray-500 mb-6 leading-relaxed">Salvamos tus dientes con precisión.</p>
+                    <a href="https://wa.me/522223287652?text=Deseo%20info%20Endodoncia" class="block text-center border-2 border-dental-blue text-dental-blue font-bold py-2 px-4 rounded-lg hover:bg-dental-blue hover:text-white transition">Ver detalles</a>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover-lift group">
+                    <div class="text-dental-blue text-5xl mb-6"><i class="fas fa-head-side-mask"></i></div> <h3 class="text-xl font-bold mb-3">Cirugía Oral</h3>
+                    <p class="text-gray-500 mb-6 leading-relaxed">Extracciones y cirugía maxilofacial sin dolor.</p>
+                    <a href="https://wa.me/522223287652?text=Deseo%20info%20Cirugía" class="block text-center border-2 border-dental-blue text-dental-blue font-bold py-2 px-4 rounded-lg hover:bg-dental-blue hover:text-white transition">Ver detalles</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="py-24 px-6 bg-white overflow-hidden">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4 italic">Nuestro Trabajo Respaldado</h2>
+            <p class="text-gray-500 mb-12">Resultados reales que transforman vidas y generan sonrisas.</p>
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide shadow-xl">
+                        <img src="caso1.jpg" alt="Caso de éxito 1" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 bg-dental-blue/80 text-white w-full py-2 text-sm font-bold">Ortodoncia Invisible</div>
+                    </div>
+                    <div class="swiper-slide shadow-xl">
+                        <img src="caso2.jpg" alt="Caso de éxito 2" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 bg-dental-blue/80 text-white w-full py-2 text-sm font-bold">Diseño de Sonrisa</div>
+                    </div>
+                    <div class="swiper-slide shadow-xl">
+                        <img src="caso3.png" alt="Caso de éxito 3" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 bg-dental-blue/80 text-white w-full py-2 text-sm font-bold">Implante Dental</div>
+                    </div>
+                    <div class="swiper-slide shadow-xl">
+                        <img src="caso4.jpg" alt="Caso de éxito 4" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 bg-dental-blue/80 text-white w-full py-2 text-sm font-bold">Brackets Metálicos</div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ubicacion" class="bg-slate-50 py-24 px-6 border-t border-gray-100">
+        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="bg-dental-blue p-10 rounded-3xl text-white shadow-2xl">
+                <h2 class="text-3xl font-bold mb-8 italic">Atención Personalizada</h2>
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <div class="bg-blue-400/30 p-3 rounded-lg mr-4"><i class="fas fa-map-marker-alt"></i></div>
+                        <p class="text-lg font-light tracking-wide">Calle Cuauhtémoc Norte s/n, Tlaxcalancingo, San Andrés Cholula, Puebla.</p>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="bg-blue-400/30 p-3 rounded-lg mr-4"><i class="fas fa-phone-alt"></i></div>
+                        <p class="text-lg">222 328 76 52</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-3xl overflow-hidden shadow-xl border-4 border-white h-[350px]">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3771.8372990419284!2d-98.28351972479588!3d19.02688978216761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDAxJzM2LjgiTiA5OMKwMTYnNTEuNCJX!5e0!3m2!1ses!2smx!4v1771519333070!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-white py-12 text-center">
+        <div class="container mx-auto px-6">
+            <img src="logo.png" alt="Logo" class="h-12 mx-auto mb-6 brightness-0 invert opacity-50">
+            <p class="mb-2 text-lg italic">SONRIE - Consultorio Dental</p>
+            <p class="text-gray-500 text-sm mb-6">Dra. Victoria Coyotl Tecuanhuey | Ced. Prof. 12345678</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+</body>
+</html>
